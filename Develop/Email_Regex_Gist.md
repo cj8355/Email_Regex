@@ -57,15 +57,15 @@ Below are some examples of email address' that would and wouldn't meet these req
 
 Allowed:
 
-charlescallender@gmail.com
-charles.callender@gmail.edu
+charlescallender@gmail.com \
+charles.callender@gmail.edu \
 charlescallender27@gmail.nets.
 
 Not Allowed:
 
-charles!#@gmail.com isn't allowed because it has a ! and #
-Charlescallender@gmail.com isn't allowed because it has a capital C
-charlescallender@gmail.88 isn't allowed because it ends with 88
+charles!#@gmail.com isn't allowed because it has a ! and # \
+Charlescallender@gmail.com isn't allowed because it has a capital C \
+charlescallender@gmail.88 isn't allowed because it ends with 88 \
 charlescallender@gmail.com!! isn't allowed becuase it has ! points at the end
 
 
@@ -106,14 +106,14 @@ Below are some examples of email address' that would and wouldn't meet this requ
 
 Allowed:
 
-charlescallender@gmail.com
-charlescallender@uw.edu
+charlescallender@gmail.com \
+charlescallender@uw.edu \
 charlescallender_88@gmail-88.com
 
 Not Allowed:
 
-charlescallender@gmail.emailaddress isn't allowed because it has too many characters after the .
-charlescallender@gmail.c isn't allowed because it doesn't have enough characters after the .
+charlescallender@gmail.emailaddress isn't allowed because it has too many characters after the . \
+charlescallender@gmail.c isn't allowed because it doesn't have enough characters after the . \
 @gmail.com isn't allowed because the + symbol requires the pattern match 1 or more times
 
 ### Grouping Constructs
@@ -164,16 +164,16 @@ equivalent of [ 0-9 ]
 
 Allowed
 
-charles@aol.com
-charles@88.com
+charles@aol.com \
+charles@88.com \
 charles12.-_me@gmail.edu
 
 Not Allowed
 
-charles!@gmail.com isn't allowed becuase of the !
-charles##@gmail.com isn't allowed because of the #
-charles@.com isnt allowed because there are no characters after the @
-charles@gmail.eduuuuuuuuuuuuuuu isn't allwed because there are more than 6 characters after the last period
+charles!@gmail.com isn't allowed becuase of the ! \
+charles##@gmail.com isn't allowed because of the # \
+charles@.com isnt allowed because there are no characters after the @ \
+charles@gmail.eduuuuuuuuuuuuuuu isn't allwed because there are more than 6 characters after the last period \
 charles@gmail_.com isn't allowed because of the _
 
 ### Character Classes
